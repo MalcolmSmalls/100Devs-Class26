@@ -9,13 +9,13 @@ class ShadyRecords {
 }
 class Griselda extends ShadyRecords{
     constructor( name, specialPower, age, signature){
-        super(artistName)
-        super(specialPower)
-        super(age)
+        super(name, specialPower, age)
         this.signature = signature
-        finisher(){
-            alert(`${Griselda.artistName}: ${Griselda.signature}`)
-        }
     }
+        finisher(){
+            alert(`${this.artistName}: ${this.signature}`)
+        }
 }
 
+let BennyTheButcher = new Griselda('Benny The Butcher', 'BARZ', 37, 'THE BUTCHER COMIN N****!')
+let WestsideGunn = new Griselda ('Westside Gunn', "ADLIBS", 40, "DOOT DOOT DOOT DOOT DOOT DOOT, BOOM BOOM BOOM, DOOT DOOT DOOT!" ) 
